@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMATION</title>
+    <link rel="stylesheet" href="css/mutual.css" />
+    <link rel="stylesheet" href="css/04.css" />
+    <link rel="icon" type="image/svg+xml" href="pics/red_fav.svg" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="menuknap" onclick="burgerMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <ul id="menuItems" class="hidden" onclick="zIndex()">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="portfolio.html" class="active5">Portfolio</a></li>
+          <li><a href="om_mig.html">Om Lasse</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="splash">
+        <div id="container">
+          <div id="port_menu">
+            <h2 class="tema_aktiv">ANIMATION</h2>
+            <h4 class="vælg_tema">VÆLG ET TEMA</h4>
+            <div id="port_nav">
+              <ul>
+                <li><a href="02.html">02</a></li>
+                <li><a href="03.html">03</a></li>
+                <li><a href="04.html" class="active2">04</a></li>
+                <li><a href="05.html">05</a></li>
+                <li><a href="06.html">06</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="wave"></div>
+        </div>
+      </div>
+      <section id="section_1_04">
+        <a
+          id="link1"
+          href="https://lasse-godtkjaer.dk/kea/04_animation/spil/spil.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LINK TIL SPIL</a
+        >
+        <a
+          id="link2"
+          href="https://lasse-godtkjaer.dk/kea/04_animation/spil/assets.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LINK TIL ASSETS</a
+        >
+        <a
+          id="link3"
+          href="https://lasse-godtkjaer.dk/kea/04_animation/spil/doku.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LINK TIL DOKUMENTATION</a
+        >
+      </section>
+      <section id="section_2_04">
+        <div><img src="pics/mockup1_04.png" alt="" /></div>
+        <div>
+          <h3>Grundlæggende Animation</h3>
+          <p>
+            I tema 04 Grundlæggende Animation blev vi introduceret til
+            programmeringssproget javascript. Javascript er et uundværligt
+            programmeringssprog, som alle moderne hjemmesider bruger til at kode
+            mere avancerede og dynamiske hjemmesider. Vi fik i forbindelse med
+            temaet til opgave at kode et spil ved hjælp af CSS animationer og
+            javascript. Udover at skulle kode spillet selv fra bunden, skulle vi
+            også designe og formgive vore egne figurer, UI-elementer og spil
+            skærme. Vi skulle vælge en stil inspiration og jeg valgte at gøre
+            brug af stilarten flat design, eller mere specifikt flat design 2.0.
+            Flat Design er blevet til en design standard. Det er moderne, ser
+            pænt og ‘rent’ ud og kan give et hurtigt overblik. Flat design er en
+            stilart der bruger simpelt 2 dimensionalitet og lyse friske farver.
+            Vi startede med at skitserer en masse på papir og give hinanden
+            feedback på det (peer to peer) og derefter begyndte vi at rentegne
+            alt vores grafik til spillet i Adobe Illustrator. Derudover blev vi
+            introduceret til UML aktivitets- og statemachine diagrammer, som
+            bruges til at planlægge hvordan det interaktive flow i spillet
+            skulle fungere.
+          </p>
+        </div>
+        <div>
+          <h3>Spillet</h3>
+          <p>
+            Settingen i mit spil er på et spillested/en klub. Spillet handler om
+            en aften på et spillested. Der er mange mennesker og alle har
+            forskellige smag i musik. Publikum begynder at kaste ting efter
+            DJ'en, nogle kan lide det musik han spiller og andre kan ikke.
+            Spillet går ud på at sortere de ting der bliver kastet efter dj'en.
+            Nogle ting er dårlige og andre er gode.
+          </p>
+        </div>
+        <div>
+          <img src="pics/mockup2_04.png" alt="" />
+        </div>
+      </section>
+
+      <section id="section_4_04">
+        <div>
+          <h3>Aktivitetsdiagram</h3>
+          <img src="pics/aktivitet_vers_3.png" alt="Aktivitetsdiagram" />
+        </div>
+        <div>
+          <h3>Statemachinediagram</h3>
+          <img src="pics/statediagram.png" alt="Statemachinediagram" />
+        </div>
+      </section>
+    </main>
+    <script src="java/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO EKSAMEN</title>
+    <link rel="stylesheet" href="css/mutual.css" />
+    <link rel="stylesheet" href="css/06.css" />
+    <link rel="icon" type="image/svg+xml" href="pics/red_fav.svg" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="menuknap" onclick="burgerMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <ul id="menuItems" class="hidden" onclick="zIndex()">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="portfolio.html" class="active5">Portfolio</a></li>
+          <li><a href="om_mig.html">Om Lasse</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="splash">
+        <div id="container">
+          <div id="port_menu">
+            <h2 class="tema_aktiv">PORTFOLIO EKSAMEN</h2>
+            <h4 class="vælg_tema">VÆLG ET TEMA</h4>
+            <div id="port_nav">
+              <ul>
+                <li><a href="02.html">02</a></li>
+                <li><a href="03.html">03</a></li>
+                <li><a href="04.html">04</a></li>
+                <li><a href="05.html">05</a></li>
+                <li><a href="06.html" class="active2">06</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="wave"></div>
+        </div>
+      </div>
+
+      <section id="section_1_06">
+        <div class="iphonebillede">
+          <img id="image" src="pics/Mockup1_06.png" alt="Macbook" />
+        </div>
+        <div class="uxtekst">
+          <h3>UX Design</h3>
+          <p>
+            Min process startede med research. Jeg undersøgte nogle forskellige
+            personers portfolioer, så hvad de havde med i deres og hvordan deres
+            generelle opsætning var. Jeg gjorde den observation, at mange bruger
+            white-space, også kaldet negative-space, hvilket gør at hjemmesiden
+            fremstår mere simple, minimalistisk og brugervenlig. Derefter
+            udspecificerede jeg hvad jeg skulle have med i min portfolio. Ud fra
+            min research samlede jeg et moodboard med ideer, farver og fonte.
+            Jeg kom på en tanke om at lave et animeret “bjerglandskab”. Med min
+            visuelle stil på plads, udarbejdede jeg en wireframe for at kunne
+            visualisere mit indhold inden jeg påbegyndte kodningen. Herefter
+            lavede jeg et layout diagram.
+          </p>
+        </div>
+
+        <div class="iphonebillede2">
+          <img class="image2" src="pics/moodboard.png" alt="Applebillede" />
+        </div>
+        <div class="iphonebillede2">
+          <img class="image2" src="pics/styletile.png" alt="Applebillede" />
+        </div>
+      </section>
+      <section id="section_2_06">
+        <div class="slideshow">
+          <div id="slider_1_05">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <img
+                  src="pics/index.html_diagram.png"
+                  style="width: 100%"
+                  alt="slideshow"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <img
+                  src="pics/03.html_diagram.png"
+                  style="width: 100%"
+                  alt="slideshow"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <img
+                  src="pics/om_lasse.html_diagram.png"
+                  style="width: 100%"
+                  alt="slideshow"
+                />
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+            </div>
+            <br />
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+        </div>
+        <div class="uxtekst">
+          <h3>UX Design</h3>
+          <p>
+            Min portfolio hjemmeside er opbygget af er grid layout med 2
+            kolonner, skiftevis billeder og tekst. Layoutet er gennemgående
+            igennem alle mine portfolio sider, for at skabe et genkendeligt flow
+            gennem siden. Det skaber et flow på siden, så den virker spændende
+            og interessant. Jeg har gjort brug af nogle forskellige UX
+            konventioner, for at guide brugeren igennem siden layout. Jeg har
+            f.eks. ændret markøren til en “pointer” ved links og andre trykbare
+            ting, samt tilføjet hover effekter og “active” classes på mine
+            aktive menupunkter. Jeg har valgt at kode en burger menu til mobil
+            versionen, da det er en velkendt international konvention.
+          </p>
+        </div>
+      </section>
+      <div id="wireframe_con">
+        <h3 style="margin: 10px">Wireframe</h3>
+        <img id="wireframe" src="pics/wireframe.png" alt="wireframe" />
+      </div>
+    </main>
+    <script src="java/script.js"></script>
+    <script src="java/slide.js"></script>
+  </body>
+</html>
