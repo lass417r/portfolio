@@ -37,8 +37,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(assets/splash.gif);
+  background: url(http://lasse-godtkjaer.dk/kea/06_portfolioeksamen/LG_portfolio/assets/splash.gif);
   background-position: 60% 10%;
+  background-repeat: repeat-x;
   filter: grayscale(85%);
 }
 
@@ -115,8 +116,6 @@ p {
 h3 {
   color: black;
   margin-left: 40px;
-  margin-top: 2em;
-  margin-bottom: -2em;
 }
 
 h4 {
@@ -124,6 +123,13 @@ h4 {
   margin-left: 40px;
   margin-bottom: -3em;
   font-size: 0.8rem;
+}
+
+#cv {
+  color: black;
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 600px) {
@@ -146,5 +152,12 @@ h4 {
 
   #tekst2 h3 {
     margin-bottom: 0;
+  }
+
+  #cv h3 {
+    color: black;
+    margin-left: 40px;
+    margin-top: 2em;
+    margin-bottom: -2em;
   }
 }
