@@ -152,6 +152,7 @@ h3 {
 
 iframe {
   max-width: 100%;
+  border: none;
   width: 80%;
   margin-left: 40px;
   margin-right: 40px;
