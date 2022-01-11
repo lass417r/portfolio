@@ -37,10 +37,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(http://lasse-godtkjaer.dk/kea/06_portfolioeksamen/portfolio%20website/assets/gif/splash.gif);
+  background: url(assets/splash.gif);
   background-position: 60% 10%;
   filter: grayscale(85%);
 }
+
 .wave {
   position: absolute;
   width: 100%;
@@ -52,6 +53,7 @@ h2 {
   background-size: 100%;
   animation: wave 8s linear infinite;
 }
+
 .wave::before {
   content: "";
   position: absolute;
